@@ -46,7 +46,7 @@ class _Home extends State<Home> {
         subtitle: Text(
           show.genre
         ),
-        title: Text(showName),
+        title: Text(show.name),
         trailing: Text(show.rating),
       ),
     );
